@@ -1,0 +1,152 @@
+<html>
+		<head>
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Response Handler</title>
+				<style>
+            img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{display:none;} 
+            </style>
+				<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+				<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+				<style>
+					col-sm-6, col-md-6 {
+						
+					}
+					
+					hr {
+						border-top:2px solid #eee;
+						margin:0px;
+					}
+					
+					img {
+						width : 50px;
+						height : 50px;
+					}
+
+					.dl-horizontal{
+						margin:10%;
+						padding-left:5%
+					}
+
+					.dl-horizontal dt{
+						text-align:left;
+					}
+					
+					.dl-horizontal dt,.dl-horizontal dd{
+						line-height:250%;
+						text-align:left;
+					}
+					.box{
+						margin : 10%;
+						box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+						text-align: center;
+						flex:1;
+						max-height: 80vh;
+						background:#ffffff;
+					}
+
+					.box-container{
+						flex:1;
+						display:flex;
+					}
+					
+					.box-title{
+						padding:20px;
+						background:#ffd404;
+					}
+					
+					.box-content{
+						padding:10px;
+					}
+					
+					.box-title-1{
+						padding-top:10px;
+						padding-bottom:10px;
+					}
+					
+					.box-content-1{
+						padding:10px;
+					}
+					
+					.box-content-1 a{
+						margin-top:20%;
+					}
+					
+					.row {
+						
+						flex:1;
+						display:flex;
+					}
+					
+					.container {
+						flex:1;
+						display:flex;
+					}
+					
+					.success-box{
+						padding-top:10%;
+					}
+					
+					.success-box h2{
+						margin:0px;
+						vertical-align:middle;
+					}
+					
+					body{
+						display:flex;
+					}
+				</style>
+		</head>
+		<body>
+			<div class="container">
+			
+				<div class="row text-center">
+					<div class="box-container col-sm-6 col-md-6">
+						<div class="box">
+							<div class="box-title">
+								<h3><b>Purchase Details</b></h3>
+							</div>
+							<hr>
+							
+							<div class="box-content">
+										<dl class="dl-horizontal">
+											<dt>Order ID</dt>
+											<dd>IMB_160021</dd> 
+											<!-- <dd><%= orderid %></dd>  -->
+											<dt>Order Name</dt>
+											<dd>imagiobox</dd>
+											<!--  <dt>Order Date</dt>
+											<dd><%= order_date %></dd> -->
+											<dt>Contact US</dt>
+											<dd>info@imagiobox.com</dd>
+											<!-- <dt>Amount</dt>
+											<dd>Rs <%= order_amount %></dd> -->
+										</dl>
+							</div>
+	
+						</div>
+					</div>
+					<div class="success-box col-sm-6 col-md-6">
+						<div class="box-title-1">
+							<img class="image" src="/assets/images/icon_success.jpg">
+							<h2 style="display:inline-block;color:#0fad00">Success</h2>
+						</div>
+						<div class="box-content-1">
+							<!-- <h3>Dear, <%= user %></h3> -->
+							<p style="font-size:20px;color:#5C5C5C;padding-left:10%;padding-right:10%;" >
+							Thank you for purchasing Imagiobox. We will sent you the Order tracking details on your mobile number. For more details contact us at info@imagiobox.com or whatsapp us on +91-7907713977.
+							</p>
+							<a href="https://imagiobox.com" class="btn btn-success">     Home      </a>
+							<br><br>
+						</div>	
+					</div>
+					
+				</div>
+			
+			</div>
+			<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8305603.js"></script>
+<!-- End of HubSpot Embed Code -->
+		</body>
+</html>			
